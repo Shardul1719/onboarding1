@@ -488,7 +488,7 @@ const LandingPage = () => {
           </div>
 
           {/* RIGHT SIDE: Buttons (Inside Navbar now) */}
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden md:flex items-center gap-4 mr-[-12px]">
             <button className="px-6 py-2 border-white text-white text-sm font-medium w-[157px] h-[58px] rounded-[20px] border-[1.5px] flex items-center justify-center gap-[10px] hover:bg-white/10 transition">
               Contact Us
             </button>
@@ -579,7 +579,7 @@ const LandingPage = () => {
           <div className="relative h-[650px] w-full hidden lg:block">
 
             {/* 1. LEFT PHONE (Back - Investments) */}
-            <div className="absolute top-0 left-0 w-[325px] z-20">
+            <div className="absolute top-[-15px] left-0 w-[325px] z-20">
                <img 
                  src={phoneLeftMain} 
                  alt="Investments List" 
@@ -597,7 +597,7 @@ const LandingPage = () => {
             </div>
 
             {/* 3. RIGHT PHONE (Front - Julie Craig) */}
-            <div className="absolute -top-0 -right-24 w-[325px] z-20">
+            <div className="absolute -top-[14px] -right-45 w-[325px] z-20">
                 <img 
                  src={phoneRight} 
                  alt="Julie Craig Profile" 
